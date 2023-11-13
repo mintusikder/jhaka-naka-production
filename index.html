@@ -20,10 +20,9 @@
               black: "#131313",
               gray: "#4E4E4E",
             },
-            fontFamily:{
-                babes:['Bebas Neue',' sans-serif'],
-                montserrat: ['Montserrat', 'sans-serif'],
-
+            fontFamily: {
+              babes: ["Bebas Neue", " sans-serif"],
+              montserrat: ["Montserrat", "sans-serif"],
             },
           },
         },
@@ -31,16 +30,39 @@
     </script>
   </head>
   <body>
-   <!-- nav -->
-   <nav class=  "h-20">
-    <div class="flex justify-between items-center h-20 w-full max-w-6xl font-babes mx-auto">
-        <h1 class=" text-2xl ">Jhaka Naka Production</h1>
+    <!-- nav -->
+    <nav class="h-20 fixed top-0 left-0 right-0 bg-white">
+      <div
+        class="flex justify-between items-center h-20 w-full max-w-6xl font-babes mx-auto px-5"
+      >
+        <h1 class="text-2xl">Jhaka Naka Production</h1>
         <ul class="flex text-lg gap-8">
-            <li>About US </li>
-            <li>Our Movies</li>
-            <li>Services</li>
+          <li>About US</li>
+          <li>Our Movies</li>
+          <li>Services</li>
         </ul>
-    </div>
-   </nav>
+      </div>
+    </nav>
+    <!-- main header -->
+    <section
+      class="bg-red-400 pt-20 h-screen bg-[url('./images/banner.jpg')] bg-cover"
+    >
+      <div class="text-white h-full w-full max-w-6xl mx-auto flex items-center">
+        <div>
+          <h2 class="text-lg font-babes">Movie production studio</h2>
+          <h1 class="text-7xl font-babes">Films MAde to Perfection</h1>
+          <h1 class="text-7xl text-yellow font-babes">Perfection</h1>
+          <p class="my-4 max-w-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <button
+            class="text-lg font-babes border-2 py-3 px-5 border-white-500"
+          >
+            Discover More
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
