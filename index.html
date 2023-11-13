@@ -1,14 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>JAKA NAKA PRODUCTION</title>
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>JAKA NAKA PRODUCTION</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              yellow: "#FECC02",
+              black: "#131313",
+              gray: "#4E4E4E",
+            },
+            fontFamily:{
+                babes:['Bebas Neue',' sans-serif'],
+                montserrat: ['Montserrat', 'sans-serif'],
+
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+   <!-- nav -->
+   <nav class=  "h-20">
+    <div class="flex justify-between items-center h-20 w-full max-w-6xl font-babes mx-auto">
+        <h1 class=" text-2xl ">Jhaka Naka Production</h1>
+        <ul class="flex text-lg gap-8">
+            <li>About US </li>
+            <li>Our Movies</li>
+            <li>Services</li>
+        </ul>
+    </div>
+   </nav>
+  </body>
 </html>
